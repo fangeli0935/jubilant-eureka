@@ -1,7 +1,3 @@
--- Disable terminal output for cleaner logs
-SET FEEDBACK OFF
-SET ECHO OFF
-
 WHENEVER SQLERROR EXIT FAILURE;
 
 BEGIN
